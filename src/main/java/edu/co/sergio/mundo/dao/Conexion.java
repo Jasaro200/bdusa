@@ -7,10 +7,10 @@ public class Conexion {
 	
 	private static Connection CONEXION=null;
     	public static Connection getConnection() throws URISyntaxException{
-        String HOST = "-----:----"; 
-        String DATABASE = "----";
-        String USER = "----";
-        String PASS = "----";
+        String HOST = "ec2-54-225-115-234.compute-1.amazonaws.com:5432"; 
+        String DATABASE = "d2n9dk828sttg7";
+        String USER = "cmtqxwghnhexkr";
+        String PASS = "f45d34df18e2bde72932fa5247ad20593284bcbfb28ee0cddd184ffdd06c1566";
 
 //      URI dbUri = new URI(System.getenv("DATABASE_URL"));
 //      String username = dbUri.getUserInfo().split(":")[0];
